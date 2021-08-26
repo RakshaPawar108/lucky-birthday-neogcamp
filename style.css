@@ -10,6 +10,7 @@ body {
     cursive;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
@@ -34,11 +35,11 @@ input, label {
 
 input {
     margin-bottom: 1rem;
+    font-size: large;
     
 }
 
 #check-number {
-    margin-top: 1rem;
     margin: auto;
     display: block;
     background: transparent;
