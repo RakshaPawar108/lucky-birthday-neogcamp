@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+:root {
+    --primary-color: #d81159;
+    --secondary-color: #fbfef9;
+}
+
+body {
+    font-family: 'Happy Monkey',
+    cursive;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+input, label {
+    display: block;
+    width: 100%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    
+}
+
+#check-number {
+    margin-top: 1rem;
+    margin: auto;
+    display: block;
+    background: transparent;
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    border-width: medium;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
