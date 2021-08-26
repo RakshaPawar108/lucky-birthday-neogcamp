@@ -52,3 +52,13 @@ input {
     -ms-border-radius: 0.5rem;
     -o-border-radius: 0.5rem;
 }
+
+#output-box {
+    border: 1px solid var(--secondary-color);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding:2rem;
+    width: 90%;
+}
